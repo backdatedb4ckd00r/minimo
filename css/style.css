@@ -1,0 +1,157 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+/*header start*/
+header {
+	padding: 20px 0;
+	/*border: 1px solid red;*/
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid red;
+	overflow: hidden;
+}
+.logo {
+	width: 13%;
+	/*border: 1px solid red;*/
+	float: left;
+	margin-top: 10px;
+}
+.logo img {
+	width: 95%;
+}
+/*.logo p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 188%;
+	font-weight: 700;
+	color: black;
+	margin: 0;
+}*/
+.menu {
+	width: 65%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul {
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	color: #626262;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin: 0 50px;
+	border-bottom: 1px solid transparent;
+	transition: .3s;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #000000;
+}
+
+/*header end*/
+
+/* banner start*/
+.banner {}
+.b_img {}
+.b_img img {
+	width: 100%;
+}
+/* banner end */
+/*gateway start*/
+.gateway {
+	padding: 70px 0;
+}
+.container2 {
+	width: 80%;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+.g_content {}
+.light {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin: 0;
+}
+.c_title {
+	font-size: 30px;
+	font-weight: 400;
+	color: #626262;
+	margin: 25px 0 30px;
+}
+.c_p {
+	line-height: 25px;
+	letter-spacing: 1px;
+	margin-top: 0;
+	margin-bottom: 45px;
+	color: #626262;
+}
+/*gateway end*/
+/*blog start*/
+.blog {
+	padding: 70px 0;
+}
+.b_content {
+	overflow: hidden;
+}
+.single {
+	width: 47%;
+	/*border: 1px solid black;*/
+	float: left;
+}
+.single:nth-child(even) {
+	margin-left: 6%;
+}
+.single img {
+	width: 100%;
+	margin-bottom: 25px;
+}
+.mb_remove {
+	margin-bottom: 0;
+}
+/*blog end*/
+/*newsletter start*/
+.contact {
+	min-height: 300px;
+	background-color: #ddd;
+}
+/*newsletter end*/
+
+.load {
+	padding: 100px 0;
+	text-align: center; 
+}
+.load button{
+	width: 165px;
+	min-height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #626262;
+	cursor: pointer;
+	transition: .3s;
+}
+.load button:hover {
+	background-color: #626262;
+	color: white;
+}
