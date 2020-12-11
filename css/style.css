@@ -1,14 +1,14 @@
 /*font-family: 'Playfair Display', serif;*/
 /*font-family: 'Ubuntu', sans-serif;*/
 /*font-family: 'Inconsolata', monospace;*/
-
+/*common css start*/
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Playfair Display', serif;
 	color: #626262;
 }
-
+/*common css end*/
 /*header start*/
 header {
 	padding: 20px 0;
@@ -17,7 +17,7 @@ header {
 .container {
 	width: 90%;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	overflow: hidden;
 }
 .logo {
@@ -29,13 +29,6 @@ header {
 .logo img {
 	width: 95%;
 }
-/*.logo p {
-	font-family: 'Inconsolata', monospace;
-	font-size: 188%;
-	font-weight: 700;
-	color: black;
-	margin: 0;
-}*/
 .menu {
 	width: 65%;
 	/*border: 1px solid red;*/
@@ -64,9 +57,7 @@ header {
 .menu ul li a:hover {
 	border-bottom: 1px solid #000000;
 }
-
 /*header end*/
-
 /* banner start*/
 .banner {}
 .b_img {}
@@ -81,7 +72,7 @@ header {
 .container2 {
 	width: 80%;
 	margin: 0 auto;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 }
 .g_content {}
 .light {
@@ -139,9 +130,10 @@ header {
 .load {
 	padding: 100px 0;
 	text-align: center; 
+	margin-bottom: 90px;
 }
 .load button{
-	width: 165px;
+	width: 160px;
 	min-height: 60px;
 	background-color: transparent;
 	border: 1px solid #626262;
@@ -155,3 +147,45 @@ header {
 	background-color: #626262;
 	color: white;
 }
+
+/*footer start*/
+footer {
+	background-color: #f0f0f0;
+	/*min-height: 50px;*/
+}
+.terms {
+	float: left;
+}
+.terms ul {
+	overflow: hidden;
+	float: right;
+	padding-left: 0;
+}
+.terms ul li {
+	list-style: none;
+	float: left;
+	margin: 0 15px;
+}
+.terms ul li a {
+	font-family: 'Playfair', serif;
+	font-size: 14px;
+	color: #626262;
+	text-decoration: none;
+	margin: 0;
+}
+.follow {
+	float: right;
+}
+.follow ul {}
+.follow ul li {
+	list-style: none;
+	float: left;
+}
+.follow ul li a {
+	text-decoration: none;
+	display: inline-block;
+}
+.follow ul li a img {
+	padding: 0 10px;
+}
+/*footer end*/
