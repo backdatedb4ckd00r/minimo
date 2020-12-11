@@ -170,6 +170,7 @@ footer {
 .terms ul li a {
 	font-family: 'Playfair', serif;
 	font-size: 14px;
+	font-weight: 500;
 	color: #626262;
 	text-decoration: none;
 	margin: 0;
