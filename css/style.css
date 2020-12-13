@@ -62,7 +62,7 @@ header {
 .banner {}
 .b_img {}
 .b_img img {
-	width: 85%;
+	width: 100%;
 }
 /* banner end */
 /*gateway start*/
@@ -122,10 +122,55 @@ header {
 }
 /*blog end*/
 /*newsletter start*/
-.contact {
-	min-height: 300px;
+.news {
+	padding: 70px 0;
 	background-color: #ddd;
 }
+.signup {
+	text-align: center;
+}
+.s_h1 {
+	margin-top: 0;
+	margin-bottom: 70px;
+	color: #333333;
+}
+.s_form {
+	position: relative;
+	width: 400px;
+	/*border: 2px solid red;*/
+	margin : 0 auto;
+}
+.s_form input {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	    border-bottom-color: currentcolor;
+	    border-bottom-style: none;
+	    border-bottom-width: medium;
+	border-bottom: 1px solid #333333;
+	background: transparent;
+	padding-left: 1px;
+	padding-right: 45px;
+}
+.s_form input:focus {
+	outline: 0;
+}
+.s_form button {
+	position: absolute;
+	top:15px;
+	right: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+.s_form button:focus {
+	outline: 0;
+}
+.s_form button img {}
+
 /*newsletter end*/
 
 .load {
